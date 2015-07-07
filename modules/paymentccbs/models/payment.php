@@ -57,7 +57,7 @@ class payment extends AbstractTable{
     public function executeStpPayAcc($service_no, $action, $start, $limit, $i_id) {
                 
         $stmt = $this->dbconn->PrepareSP("BEGIN
-                          PAYTV.STP_PAY_ACC (:i_service_no,
+                          IFP.STP_PAY_ACC (:i_service_no,
                            :i_action,
                            :i_start,
                            :i_limit,

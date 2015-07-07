@@ -8,8 +8,8 @@ $sysConfig['Theme.defaultTheme'] = 'default';
 $sysConfig['Theme.defaultPage'] = 'default';
 
 /* Database Setting */
-$sysConfig['DB.user'] = 'paytv';
-$sysConfig['DB.password'] = 'paytv';
+$sysConfig['DB.user'] = 'ifp';
+$sysConfig['DB.password'] = 'ifp';
 $sysConfig['DB.tns'] = '(DESCRIPTION= (ADDRESS= (PROTOCOL=TCP) (HOST=192.168.1.101) (PORT=1521) ) (CONNECT_DATA= (SERVER=DEDICATED) (SID=ORCL) ) )';
 $sysConfig['DB.type'] = 'oci8';
 
